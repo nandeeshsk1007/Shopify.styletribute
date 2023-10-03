@@ -22,6 +22,12 @@ public class Elements {
 	@FindBy (xpath = "//a[@href='/account/logout']")
 	public WebElement Logoutbutton;
 	
+	@FindBy (xpath = "//a[@class='header__heading-link link link--text focus-inset']")
+	public WebElement LogoButton;
+	
+	@FindBy (xpath = "//strong[.='CATEGORY']")
+	public WebElement ShopbyCategorytext;
+	
 	@FindBy (xpath = "//span[.='NEW ARRIVALS']")
 	public WebElement cat_newcollection;
 	

@@ -23,7 +23,7 @@ public class Login extends Basic {
 	@Test(priority = 0)
 	public void loginWithValidCredentials() {
 		allelements.Emailfield.sendKeys("nandeeshsk1007@gmail.com");
-		allelements.Passwordfield.sendKeys("Apps@123");
+		allelements.Passwordfield.sendKeys("Hari@12345");
 		allelements.Loginbutton.click();
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@href='/account/logout']")));

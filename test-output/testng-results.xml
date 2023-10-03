@@ -2,28 +2,26 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-20T12:26:01 IST" name="Default suite" finished-at="2023-09-20T12:26:05 IST" duration-ms="3372">
+  <suite started-at="2023-10-03T09:35:32 IST" name="Default suite" finished-at="2023-10-03T09:35:48 IST" duration-ms="15034">
     <groups>
     </groups>
-    <test started-at="2023-09-20T12:26:01 IST" name="Default test" finished-at="2023-09-20T12:26:05 IST" duration-ms="3372">
+    <test started-at="2023-10-03T09:35:32 IST" name="Default test" finished-at="2023-10-03T09:35:48 IST" duration-ms="15034">
       <class name="ProductsBasedCategory.Products">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ProductsBasedCategory.Products@183ec003]" started-at="2023-09-20T12:25:54 IST" name="setup" finished-at="2023-09-20T12:26:01 IST" duration-ms="7458" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ProductsBasedCategory.Products@3e08ff24]" started-at="2023-10-03T09:35:25 IST" name="setup" finished-at="2023-10-03T09:35:32 IST" duration-ms="7797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="categoryNamesChecking()[pri:0, instance:ProductsBasedCategory.Products@183ec003]" started-at="2023-09-20T12:26:01 IST" name="categoryNamesChecking" finished-at="2023-09-20T12:26:05 IST" duration-ms="3243" status="FAIL">
+        <test-method signature="categoryNamesChecking()[pri:0, instance:ProductsBasedCategory.Products@3e08ff24]" started-at="2023-10-03T09:35:33 IST" name="categoryNamesChecking" finished-at="2023-10-03T09:35:48 IST" duration-ms="14966" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Sub-category name of New arrivals is not matching expected [WOMEN] but found [WOMEN1]]]>
+              <![CDATA[The following sub-category is not matching - ABC. expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Sub-category name of New arrivals is not matching expected [WOMEN] but found [WOMEN1]
+              <![CDATA[java.lang.AssertionError: The following sub-category is not matching - ABC. expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at ProductsBasedCategory.Products.categoryNamesChecking(Products.java:38)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at ProductsBasedCategory.Products.categoryNamesChecking(Products.java:72)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -58,7 +56,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- categoryNamesChecking -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:ProductsBasedCategory.Products@183ec003]" started-at="2023-09-20T12:26:05 IST" name="quit" finished-at="2023-09-20T12:26:07 IST" duration-ms="2509" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:ProductsBasedCategory.Products@3e08ff24]" started-at="2023-10-03T09:35:48 IST" name="quit" finished-at="2023-10-03T09:35:50 IST" duration-ms="2384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
