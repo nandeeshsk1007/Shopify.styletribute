@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ProductsBasedCategory.Products">
+      <class name="Search.SearchingForProducts">
         <methods>
           <include name="setup"/>
-          <include name="categoryNamesChecking"/>
           <include name="quit"/>
+          <include name="verify_Designer_SalePrice_And_RetailPrice"/>
         </methods>
-      </class> <!-- ProductsBasedCategory.Products -->
+      </class> <!-- Search.SearchingForProducts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
