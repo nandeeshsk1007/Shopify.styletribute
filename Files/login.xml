@@ -1,0 +1,6 @@
+<test>
+    <action type="open" url="https://www.facebook.com/"/>
+    <action type="type" locator="id=email" text="swaroop"/>
+    <action type="type" locator="id=pass" text="nandeesh"/>
+    <action type="click" locator="name=login"/>
+</test>

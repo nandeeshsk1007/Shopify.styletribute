@@ -30,6 +30,7 @@ public class Login extends Basic {
 		Assert.assertTrue(allelements.Logoutbutton.isDisplayed(), "Login failed");
 		allelements.Logoutbutton.click();
 	}
+	
 	@Test(priority = 1)
 	public void loginWithInvalidEmail() {
 		allelements.Emailfield.sendKeys("nandeeshsk10@gmail.com");
@@ -37,6 +38,7 @@ public class Login extends Basic {
 		allelements.Loginbutton.click();
 		Assert.assertEquals(driver.findElement(By.xpath("//span[.='User not found']")).getText(), "User not found", "It is not validating email id");
 	}
+	
 	@Test(priority = 2)
 	public void loginWithInvalidPassword() {
 		allelements.Emailfield.sendKeys("nandeeshsk1007@gmail.com");
